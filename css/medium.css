@@ -1,0 +1,33 @@
+/* (min-width: 768px) */
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-desktop {
+    display: block;
+    overflow: hidden;
+}
+
+.nav-desktop li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-desktop li a {
+    padding: 60px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333333;
+    transition: color .3s;
+}
+
+.nav-desktop li a:hover {
+    color: #0c5ebb;
+}
+
+/* MAIN */
+section {
+    margin: 120px 0;
+}
